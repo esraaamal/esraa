@@ -126,9 +126,11 @@ function card(path) {
     const option = option_list.querySelectorAll(".option");
 
     // set onclick attribute to all available options
-    for(i=0; i < option.length; i++){
-        option[i].setAttribute("onclick"," optionSelected(this)");
-    }
+    option.forEach(x=>{
+        x.addEventListener('click',function(){
+            optionSelected(x)
+        })
+    })
 }
 
 // creating the new div tags which for icons
