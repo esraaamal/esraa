@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="bootstrap-5.1.1-dist/css/bootstrap.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="navbar-brand" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-brand" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-brand sign-up signup-btn" href="#">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+
+      <!-- Start main section -->
+      <div class="main-section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                    <div class="left">
+                      <h2>Online Exam</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magnam quo, velit assumenda alias illum eaque odio, unde consequatur, repellat quod dolorem doloribus? Officiis nam blanditiis voluptas maxime, alias perferendis.</p>
+                      <button type="button" class="lets-btn">Let's Start</button>
+                    </div>
+                    </div>
+                  <div class="col-md-6 right">
+                      <img src="img/2406-removebg-preview.png" alt="">
+                </div>
+              </div>
+          </div>
+      </div>
+      <!-- End main section -->
+
+      <!-- Start Reg -->
+      <div class="main-section-reg">
+        <div class="wrapper">
+          <i class="far fa-times-circle closing-tap"></i>
+          <div class="title-text">
+             <div class="title login">
+                Login Form
+             </div>
+             <div class="title signup">
+                Signup Form
+             </div>
+          </div>
+          <div class="form-container">
+             <div class="slide-controls">
+                <input type="radio" name="slide" id="login" checked>
+                <input type="radio" name="slide" id="signup">
+                <label for="login" class="slide login">Login</label>
+                <label for="signup" class="slide signup">Signup</label>
+                <div class="slider-tab"></div>
+             </div>
+             <div class="form-inner">
+                <form action="#" class="login">
+                   <div class="field">
+                      <input type="text" class="login-email" placeholder="Email Address" required>
+                      
+                   </div>
+                   <div class="field">
+                      <input type="password" class="login-password" placeholder="Password" required>
+                   </div>
+                   <div class="pass-link">
+                      <a href="#">Forgot password?</a>
+                   </div>
+                   <div class="field btn">
+                      <div class="btn-layer"></div>
+                      <input type="submit" class="login-btn" value="Login">
+                   </div>
+                   <div class="signup-link">
+                      Not a member? <a href="">Signup now</a>
+                   </div>
+                </form>
+                <form action="#" class="signup">
+                  <div class="field">
+                    <input type="text" placeholder="User Name" required>
+                 </div>
+                   <div class="field">
+                      <input type="text" placeholder="Email Address" required>
+                   </div>
+                   <div class="field">
+                      <input type="password" placeholder="Password" required>
+                   </div>
+                   <!-- <div class="field">
+                      <input type="password" placeholder="Confirm password" required>
+                   </div> -->
+                   <div class="field btn">
+                      <div class="btn-layer"></div>
+                      <input type="submit" value="Signup">
+                   </div>
+                </form>
+             </div>
+          </div>
+       </div>
+      </div>
+      <!-- End Reg -->
+
+    <script src="bootstrap-5.1.1-dist/js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+</html>

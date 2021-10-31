@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap-5.1.1-dist/css/bootstrap.css">
+    <title>Cards Page</title>
+</head>
+<body>
+    <!-- Start Navbar -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="navbar-brand" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-brand" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-brand sign-up signup-btn" href="#">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> -->
+      <!-- End Navbar -->
+      <div class="container-fluid ">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-light arrow-section">
+                <i class="fas fa-arrow-circle-left arrow-tap"></i>
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                    <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <img src="img/ava2.png" alt="hugenerd" width="80" height="80" class="rounded-circle ms-5">
+                        <!-- <span class="fs-5 d-none d-sm-inline"> jmhhj</span> -->
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                        <!-- <li class="nav-item">
+                            <a href="#" class="nav-link align-middle px-0">
+                                <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">User Name: </span>
+                            </a>
+                        </li> -->
+                        <li>
+                            <a href="#" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <!-- <i class="fs-4 bi-speedometer2"> </i> User Name: --> User Name:
+                            </a>
+                            <!-- <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1 </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2 </a>
+                                </li>
+                            </ul> -->
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">E-mail</a>
+                        </li>
+                        <li>
+                            <a href="index.html" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                                <!-- <i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">Home Page</span>  -->
+                            Home Page
+                            </a>
+                            <!-- <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Back</span> 1</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2</a>
+                                </li>
+                            </ul> -->
+                        </li>
+                        <li>
+                            <a href="#" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <!-- <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Back</span> -->
+                                Back
+                            </a>
+                                <!-- <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 
+                                        Product
+                                </a>
+                                </li> -->
+                                <!-- <li>
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 2</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 3</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 4</a>
+                                </li> -->
+                            <!-- </ul> -->
+                        </li>
+                        <!-- <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Customers</span> </a>
+                        </li> -->
+                    </ul>
+                    <div class="dropdown pb-4">
+                        <!-- <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="https://github.com/mdo.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
+                            <span class="d-none d-sm-inline mx-1">loser</span>
+                        </a> -->
+                        <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                            <li><a class="dropdown-item" href="#">New project...</a></li>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Section -->
+            <div class="col py-3">
+                <div class="main-section-cards">
+                    <i class="fas fa-arrow-circle-right arrow-tap1"></i>
+                    <div class="container">
+                        <div class="row">
+
+                            <!-- one -->
+                            <div class="col-md-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="img/ava1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">UX DESIGNER</h5>
+                                      <p class="card-text">(UX) design is the process design teams use to create products that provide meaningful and relevant experiences to users..</p>
+                                      <a href="quiz.html" class="btn btn-primary w-100 start-btn" id="ux">Start</a>
+                                    </div>
+                                  </div>
+                            </div>
+
+                            <!-- two -->
+                            <div class="col-md-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="img/woman_avatar_icons_cartoon_characters_circles_isolation_6835937.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">FRONT DEVELOPER</h5>
+                                      <p class="card-text">is responsible for using their knowledge of programming languages to code user-side applications.</p>
+                                      <a href="quiz.html" class="btn btn-primary w-100 start-btn" id="frontend">Start</a>
+                                    </div>
+                                  </div>
+                            </div>
+
+                            <!-- three esraa -->
+                            <div class="col-md-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="img/ava3.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">PHP DEVELOPER</h5>
+                                      <p class="card-text">A PHP Developer is responsible for creating and implementing an array of Web-based products using PHP, MySQL, Ajax, and JavaScript.</p>
+                                      <a href="quiz.html" class="btn btn-primary w-100 start-btn" id="php">Start</a>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script>
+    //  Navbar Section
+    let arrowSection = document.querySelector('.arrow-section');
+        let arrowTap = document.querySelector('.arrow-tap');
+
+        let arrowTap1 = document.querySelector('.arrow-tap1');
+
+
+        arrowTap.addEventListener('click',arrow);
+        arrowTap1.addEventListener('click', arrow1)
+
+        function arrow() {
+          arrowSection.style.display = "none";
+          arrowTap1.style.display = "block";
+        }
+
+        function arrow1(){
+            arrowSection.style.display = "block";
+            arrowTap1.style.display = "none";
+        }
+
+
+
+        let startBtn = document.querySelectorAll('.start-btn');
+
+        startBtn.forEach(element => {
+            element.addEventListener('click', function(){
+                console.log(element.id)
+                localStorage.setItem("id", element.id)
+            })
+
+            
+        });
+</script>
+    <script src="bootstrap-5.1.1-dist/js/bootstrap.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+    <!-- <script src="js/quiz.js"></script> -->
+    <!-- <script src="js/signup.js"></script> -->
+</body>
+</html>

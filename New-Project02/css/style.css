@@ -1,0 +1,89 @@
+body {
+	background: linear-gradient(-45deg, #8B7DAB , #E9B5AC, #8B7DAB, #E9B5AC);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.nav-item a{ 
+	color: #fff;
+	font-size: 15px;
+	margin-left: 30px;
+}
+.navbar-nav {
+	margin-top: 15px;
+}
+.sign-up{
+	background-color: #6f628f;
+	border-radius: 10px;
+	padding: 20px;
+}
+/* .start-btn:hover{
+	background-color: #6f628f !important;
+} */
+.right img{
+	margin-top: 150px;
+	margin-left: 150px;
+	width: 400px;
+	height: 400px;
+}
+.left {
+	margin-top: 230px;
+	color: white;
+}
+
+/* Cards Section */
+
+.card{
+	margin: auto;
+	margin-top: 300px;
+	text-align: center;
+	height: 380px;
+	border-radius: 10px;
+}
+.card img{
+	width: 150px;
+	height: 150px;
+	margin: auto;
+}
+
+.card:hover{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	transform: scale(1.1,1.1);
+}
+	
+.lets-btn{
+	background-color: #6f628f ;
+	color: white ;
+	border: none ;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.arrow-tap{
+	position:absolute;
+    right: 84%;
+    top: 1%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.arrow-tap1{
+	position:absolute;
+    right: 98%;
+    top: 1%;
+    font-size: 20px;
+    cursor: pointer;
+	display: none;
+}
